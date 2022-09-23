@@ -1,4 +1,43 @@
-<!DOCTYPE html>
 
-<head>
+    body {
+        margin: 0;
+        font-family: "Apple Chancery", sans-serif;
+        background-color: #9fabbf;
+        text-align: center;
+    }
+
+    .image-txt-container{
+        font-family: "Arial", sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 25px
+}
+
+div {
+    margin: 0'
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    max-height: 15%
+    border-radius: 15px;
+}
+
+.link {
+    margin: 40px;
+}
+
+
     
