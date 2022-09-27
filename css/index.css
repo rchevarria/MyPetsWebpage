@@ -44,6 +44,10 @@ img {
     border-radius: 15px;
 }
 
+.title{
+    font-family: Copperplate;
+}
+
 .image1 {
     max-width: 60%;
     max-height: 300px;
