@@ -60,11 +60,23 @@ img {
     border-radius: 10%;
 }
 
-a{
+a {
     text-decoration: none;
     color: blue;
     background-color: lightblue;
     padding: 10px;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    border-radius: 70%;
+}
+
+.customButton{
+    font-family: Courier New;
+    position: absolute;
+    right: 70px;
+    top: 130px;
+    background-color: lightblue;
 }
 
 table {
