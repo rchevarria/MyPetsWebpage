@@ -1,16 +1,107 @@
 body {
-    font-family: Courier New;
-    background: #C0C0C0;
-}
-
-
-.body-border{
-    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: 999;
-    border: 40px solid;
+    border: 30px solid;
     border-color: black;
+    margin: 0;
+    overflow: auto;
+    font-family: Courier New;
+    background: #C0C0C0;
 }
+
+.title{
+    text-align: center;
+}
+
+.paragraph{
+    font-family: Comic Sans MS;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 2rem;
+}
+
+.captions{
+    font-family: Futura;
+    text-align: center;
+    line-height: 10px;
+}
+
+.image-table-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    max-height: 15%;
+    border-radius: 15px;
+}
+
+.image1 {
+    max-width: 60%;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.image2 {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    background-color: lightblue;
+    padding: 10px;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    border-radius: 70%;
+}
+
+.customButton{
+    font-family: Courier New;
+    position: absolute;
+    right: 70px;
+    top: 130px;
+    background-color: lightblue;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+td, th {
+  border: 1px solid #990099;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #990099;
+}
+
+
+

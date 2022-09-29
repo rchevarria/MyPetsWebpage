@@ -1,13 +1,11 @@
-
 body {
     margin: 0;
     font-family: "Apple Chancery", sans-serif;
-    background-color: #9fabbf;
+    background-color: #257CE0;
     text-align: center;
 }
 
 .image-txt-container{
-    font-family: "Arial", sans-serif;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -42,6 +40,10 @@ img {
     max-width: 15%;
     max-height: 15%;
     border-radius: 15px;
+}
+
+.title{
+    font-family: Copperplate;
 }
 
 .image1 {
