@@ -24,6 +24,12 @@ body {
     margin-top: 2rem;
 }
 
+.captions{
+    font-family: Futura;
+    text-align: center;
+    line-height: 10px;
+}
+
 .image-table-container{
     font-family: "Arial", sans-serif;
     display: flex;
